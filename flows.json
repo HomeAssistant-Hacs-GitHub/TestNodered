@@ -105,7 +105,8 @@
         "y": 240,
         "wires": [
             [
-                "eb93650c52cd7797"
+                "eb93650c52cd7797",
+                "8209ac2784324d1d"
             ]
         ]
     },
@@ -139,6 +140,26 @@
         "libs": [],
         "x": 380,
         "y": 260,
+        "wires": [
+            [
+                "11c853bcba498c66"
+            ]
+        ]
+    },
+    {
+        "id": "8209ac2784324d1d",
+        "type": "function",
+        "z": "ae9c75194fbd0443",
+        "name": "function 3",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 360,
         "wires": [
             [
                 "11c853bcba498c66"
