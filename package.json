@@ -1,0 +1,12 @@
+{
+    "name": "TestNoderedDevelopment20260202",
+    "description": "Development project welke zelfde Git-repository gekoppeld heeft als nodered",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "flows.json",
+            "credentialsFile": "flows_cred.json"
+        }
+    }
+}
