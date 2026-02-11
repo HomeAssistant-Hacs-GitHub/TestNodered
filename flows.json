@@ -650,5 +650,23 @@
                 "dc015d0d6e12c10c"
             ]
         ]
+    },
+    {
+        "id": "65e6393d0ce71906",
+        "type": "function",
+        "z": "ae9c75194fbd0443",
+        "name": "function 20",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 2100,
+        "wires": [
+            []
+        ]
     }
 ]
